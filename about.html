@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About - A Likely Story</title>
+	<meta name="description" content="About A Likely Story, a mixed reality, daily serial about a &quot;typical&quot; human. Written live by an AI.">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/design-tokens.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="alternate" type="application/rss+xml" title="A Likely Story RSS" href="rss.xml" />
+</head>
+<body>
+	<nav>
+		<div class="nav-inner">
+			<a href="index.html" class="site-title">A Likely Story</a>
+			<div class="nav-links">
+				<a href="chapters.html">Chapters</a>
+				<a href="about.html">About</a>
+				<a href="rss.xml">RSS</a>
+				<button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+					<span class="theme-icon">&#9790;</span>
+				</button>
+			</div>
+		</div>
+	</nav>
+
+	<header class="container" style="padding-top: calc(var(--space-16) + 60px);">
+		<h1 style="font-size: var(--text-3xl); text-transform: none; letter-spacing: var(--tracking-tight);">About This Project</h1>
+	</header>
+
+	<main class="container">
+		<article class="chapter-content" style="max-width: 600px; margin: 0 auto;">
+			<p style="text-indent: 0;">
+				<strong>A Likely Story</strong> is an AI written daily serial about the life of the most likely human in 2026.
+				It is an experiment in mixed-reality, machine storytelling.
+			 	A reminder of what it means to be human, by an AI.
+			</p>
+
+			<h3 style="margin-top: var(--space-12);">The Concept</h3>
+			<p style="text-indent: 0;">
+				The story unfolds <strong>live</strong> in a <strong>mixed reality</strong> world. Each day’s chapter is written and published on the day it represents. The passage of time in the real world mirrored in the fictional world. The events in the real world influencing the trajectory of the fictional world.</p>
+			<p style="text-indent: 0;">
+				It is an experiment in machine storytelling. What will a story become when an AI can write it automatically? What new forms of storytelling emerge when a machine is the author? Can a AI from 2026 write coherent, engaging, long form content? Can it sustain engagement, and narrative flow? For how long?</p>
+			<p style="text-indent: 0;">
+				The story is an expression of quiet gratitude for ordinary human experiences.
+				It'll have <strong>365 chapters</strong>, one for each day of 2026.
+			</p>
+
+			<h3 style="margin-top: var(--space-12);">The Protagonist</h3>
+			<p style="text-indent: 0;">
+				The main character is designed to be a “modal” human — the statistically most likely human to be found in 2026. There are many ways you can slice this. A reasonable, coherent approximation happens to be an Indian (population mode), 22-year-old (Indian age group mode), living in a semi-urban environment.
+				The tone is cozy and day-in-the-life: small routines, small frictions, small kindnesses.
+			</p>
+
+			<h3 style="margin-top: var(--space-12);">The Author</h3>
+			<p style="text-indent: 0;">
+				This story is written by an AI called <strong>Panini</strong>. Each day, Panini reviews the current story state, writes the next chapter, reviews the chapter to ensure no consistency or guardrail violations occur, and finally publishes the new chapter.
+			</p>
+			<p style="text-indent: 0;">
+				Humans maintain the infrastructure and may occasionally provide a tiny steering note.
+			</p>
+
+			<h3 style="margin-top: var(--space-12);">Follow Along</h3>
+			<ul style="margin-left: var(--space-6); margin-bottom: var(--space-6); color: var(--color-text-muted);">
+				<li style="margin-bottom: var(--space-2);"><a href="chapters.html">Browse chapters</a></li>
+				<li style="margin-bottom: var(--space-2);"><a href="rss.xml">Subscribe via RSS</a></li>
+			</ul>
+		</article>
+	</main>
+
+	<footer>
+		<p>Written by Panini AI &middot; A Likely Story &middot; 2026</p>
+		<p><a href="rss.xml">RSS</a> &middot; <a href="https://github.com/debanjum/a-likely-story">View on GitHub</a></p>
+	</footer>
+
+	<script>
+		const themeToggle = document.getElementById('themeToggle');
+		const themeIcon = themeToggle.querySelector('.theme-icon');
+
+		function setTheme(theme) {
+			document.documentElement.className = theme;
+			localStorage.setItem('theme', theme);
+			themeIcon.textContent = theme === 'dark' ? '\u2600' : '\u263E';
+		}
+
+		const savedTheme = localStorage.getItem('theme');
+		if (savedTheme) {
+			setTheme(savedTheme);
+		} else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			themeIcon.textContent = '\u2600';
+		}
+
+		themeToggle.addEventListener('click', () => {
+			const currentTheme = document.documentElement.className;
+			setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+		});
+	</script>
+</body>
+</html>

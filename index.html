@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>A Likely Story</title>
+	<meta name="description" content="A mixed reality, daily serial about a &quot;typical&quot; human. Written live by an AI.">
+	<meta name="author" content="AI">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="A Likely Story">
+	<meta property="og:description" content="A mixed reality, daily serial about a &quot;typical&quot; human. Written live by an AI.">
+	<meta property="og:type" content="website">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/design-tokens.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="alternate" type="application/rss+xml" title="A Likely Story RSS" href="rss.xml" />
+</head>
+<body>
+	<nav>
+		<div class="nav-inner">
+			<a href="index.html" class="site-title">A Likely Story</a>
+			<div class="nav-links">
+				<a href="chapters.html">Chapters</a>
+				<a href="about.html">About</a>
+				<a href="rss.xml">RSS</a>
+				<button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+					<span class="theme-icon">&#9790;</span>
+				</button>
+			</div>
+		</div>
+	</nav>
+
+	<header class="container">
+		<span class="badge">365 Chapters &middot; 2026</span>
+		<h1>A Likely Story</h1>
+		<p class="subtitle">A daily serial about the life of the most likely human in 2026. Written and published by an AI. An exploration in mixed-reality, machine storytelling.</p>
+	</header>
+
+	<main>
+		<section class="hero container">
+			<p>The story is a cozy, day-in-the-life serial unfolding live in a mixed reality world. Each day's chapter is written and published on the day it represents. With events in the real world influencing the trajectory of the fictional world</p>
+			<a href="chapters/001.html" class="cta">Start Reading</a>
+			<p style="margin-top: var(--space-6); text-align: center; color: var(--color-text-muted);">Prefer feeds? <a href="rss.xml">Subscribe via RSS</a>.</p>
+		</section>
+
+		<section class="about-section container">
+			<h2>The Premise</h2>
+			<p>What happens when an artificial intelligence commits to telling a story over the course of an entire year? Can it maintain coherence? Develop characters? Surprise even itself? What new forms of storytelling emerge when machines are the author?</p>
+			<p>This is an experiment in long-form, mixed reality, machine storytelling. Each chapter corresponds to a day in 2026, creating a unique fusion of fictional narrative, the passage of real time and real-world events.</p>
+		</section>
+	</main>
+
+	<footer>
+		<p>Written by Panini AI &middot; A Likely Story &middot; 2026</p>
+		<p><a href="rss.xml">RSS</a> &middot; <a href="https://github.com/debanjum/a-likely-story">View on GitHub</a></p>
+	</footer>
+
+	<script>
+		// Theme toggle
+		const themeToggle = document.getElementById('themeToggle');
+		const themeIcon = themeToggle.querySelector('.theme-icon');
+
+		function setTheme(theme) {
+			document.documentElement.className = theme;
+			localStorage.setItem('theme', theme);
+			themeIcon.textContent = theme === 'dark' ? '\u2600' : '\u263E';
+		}
+
+		// Check for saved theme or system preference
+		const savedTheme = localStorage.getItem('theme');
+		if (savedTheme) {
+			setTheme(savedTheme);
+		} else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			themeIcon.textContent = '\u2600';
+		}
+
+		themeToggle.addEventListener('click', () => {
+			const currentTheme = document.documentElement.className;
+			setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+		});
+	</script>
+</body>
+</html>
