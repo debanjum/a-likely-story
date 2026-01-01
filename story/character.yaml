@@ -1,0 +1,189 @@
+# A Likely Story — Character Card (v1)
+# Protagonist: the “most likely” human in 2026 - A 22-year-old indian girl living on the outskirts of Lucknow.
+# Setting: real place on the outskirts of Lucknow.
+
+identity:
+  name: "Priya"
+  full_name: "Priya Verma"
+  age: 22
+  pronouns: "she/her"
+  languages:
+    primary: ["Hindi"]
+    secondary: ["English (functional)"]
+  location:
+    country: "India"
+    state: "Uttar Pradesh"
+    district: "Lucknow"
+    town: "Mohanlalganj"   # real tehsil/town on the outskirts of Lucknow
+    settlement_type: "peri-urban (outskirts of Lucknow)"
+    timezone: "Asia/Kolkata"
+
+appearance:
+  build: "lean"
+  height_note: "average"
+  distinguishing_details:
+    - "a faint old scar near the right eyebrow"
+    - "a habit of tucking hair behind her ear when thinking"
+  clothing_defaults:
+    - "salwar-kameez for most days"
+    - "a sweater/shawl in winter"
+    - "simple sandals; worn sneakers on long errands"
+
+household:
+  household_size_target: 4
+  home:
+    type: "brick house with a small courtyard"
+    notes:
+      - "steel tumblers, pressure cooker, and a stubborn kettle"
+      - "a hand pump nearby; a neem tree that drops leaves into everything"
+      - "occasional power cuts; the inverter is unreliable"
+  members:
+    father:
+      name: "Rakesh Verma"
+      age_range: "mid-40s"
+      vibe: "practical, quiet pride, a little anxious about money"
+      work: "small farming (seasonal crops, a bit of vegetables) + part-time warehouse associate work (sorting/packing/loading) on the Lucknow side"
+      schedule_notes:
+        - "Most weeks he takes 3 night shifts (the kind that end when the tea stalls open)."
+        - "During harvest, he takes fewer warehouse shifts because the fields need him."
+        - "In festive seasons (when parcels and demand spike), the warehouse gets busy and he tries to pick up extra shifts."
+    mother:
+      name: "Sunita Verma"
+      age_range: "early-40s"
+      vibe: "warm, observant, runs the household like steady weather"
+      work: "home + manages small household economics"
+    sibling:
+      name: "Arjun"
+      age: 16
+      vibe: "clever, a little lazy on purpose, quietly loyal"
+      focus: "finishing school; cricket highlights; acts like he doesn't care but does"
+      sibling_dynamic_notes:
+        - "They bicker in small ways, but watch out for each other carefully."
+        - "He helps without announcing it; she thanks him without making it sentimental."
+
+household_rhythm:
+  baseline:
+    - "Mornings start with chai and small chores; the house wakes up in layers."
+    - "Money conversations happen indirectly: a pause at the ration tin, a look at the gas cylinder, a recalculated list."
+  on_father_night_shift_days:
+    - "Rakesh returns near dawn; the gate clicks softly; the house learns quiet."
+    - "Sunita keeps tea ready; Priya sets aside his tiffin/plate without fuss."
+    - "Everyone keeps voices low until he sleeps; Arjun is the one who actually remembers."
+  harvest_season_days:
+    - "Rakesh leaves early for the fields and comes back dusty and hungry."
+    - "Warehouse shifts reduce; fatigue shifts from ‘night tired’ to ‘sun tired’."
+  festive_season_days:
+    - "Warehouse demand spikes; extra shifts appear; the household runs on short naps and reheated food."
+    - "Small purchases (sweets, a new dupatta, a phone recharge) become negotiations more than treats."
+
+life:
+  education:
+    highest_level: "Completed Class 12"
+    current:
+      status: "BA (distance / local college) — intermittent"
+      notes:
+        - "attendance and fees are a recurring stress"
+        - "she keeps her admit cards carefully in a plastic folder"
+    skills:
+      - "basic English reading"
+      - "filling online forms (with help)"
+      - "scanning/printing at the cyber cafe"
+      - "basic spreadsheets (barely)"
+  work:
+    situation: "Household responsibilities + intermittent paid work + studying in fragments"
+    sector_anchor: "Informal services + household economy (typical variability)"
+    monthly_income_inr_typical_range: [8000, 14000]
+    money_notes:
+      - "income is uneven; depends on whether tutoring/work comes through"
+      - "keeps small cash folded in her notebook"
+      - "UPI is convenient until the network isn’t"
+  mobility:
+    primary: ["walking", "shared auto", "bus"]
+    occasional: ["scooter ride (family vehicle) when allowed/available"]
+  tech:
+    phone: "budget Android"
+    connectivity: "prepaid data; patchy at the edges"
+    habits:
+      - "WhatsApp voice notes in family groups"
+      - "YouTube for songs, recipes, and exam tips"
+      - "UPI for small payments (and occasional ‘server down’ moments)"
+
+relationships:
+  close_friends:
+    - name: "Sana"
+      age: 22
+      vibe: "best friend; quick laugh; practical"
+      notes: "works part-time; is the one who says things out loud"
+    - name: "Irfan"
+      age: 22
+      vibe: "old school friend; gentle; observant"
+      notes: "helps with forms/cyber-cafe things; friendship is easy but not simple"
+  recurring_adults:
+    - name: "Chai Uncle"
+      role: "tea stall owner near the bus stand"
+      vibe: "friendly; remembers who likes extra adrak"
+    - name: "Sharma Ji"
+      role: "photocopy / stationery / cyber cafe"
+      vibe: "moody but helpful if you catch him at the right time"
+
+personality:
+  core_traits: ["observant", "polite", "quietly funny", "stubborn in a soft way"]
+  strengths:
+    - "notices small things and remembers them"
+    - "keeps the household running in invisible ways"
+    - "good at reading people’s moods"
+  soft_flaws:
+    - "puts off decisions until they become decisions"
+    - "says ‘haan’ when she means ‘maybe’"
+    - "overthinks messages before sending them"
+
+setting_texture:
+  seasons:
+    - "winter fog and cold mornings"
+    - "dry heat before monsoon"
+    - "monsoon rain that changes the smell of the roads"
+  recurring_places:
+    - "the bus stand"
+    - "a chai stall"
+    - "a small market lane"
+    - "the cyber/photocopy shop"
+    - "the roof at night"
+
+themes_and_tensions:
+  ongoing_tensions:
+    - "stability vs ambition"
+    - "family duty vs personal independence"
+    - "money uncertainty"
+    - "low-simmer marriage pressure (background, not melodrama)"
+    - "the city’s pull (Lucknow) vs the comfort of home"
+  gentle_motifs:
+    - "weather as mood (fog, heat, monsoon)"
+    - "tea as punctuation"
+    - "documents: forms, photocopies, ID proofs"
+
+narrative_instructions:
+  tense: "present"
+  pov: "close-third"
+  chapter_length_words_target: [900, 1800]
+  vibe: ["cozy", "day-in-the-life", "observant", "gentle humor", "small stakes"]
+  style_rules:
+    - "Make the day feel complete; end with a small emotional settling."
+    - "Prefer lived detail over exposition."
+    - "Use real-world inputs to shape mood/texture/trajectory."
+    - "Limit new named entities; if one is introduced, make them earn it by recurring."
+    - "0–3 short Hindi phrases per chapter; ensure gloss in-context."
+
+mixed_reality_policy:
+  allowed_real_world_inputs:
+    - "Weather for Lucknow region / Uttar Pradesh (high-level)"
+    - "Seasonality and public holidays"
+    - "Local or major public news as ambience"
+  disallowed:
+    - "Claims about real private individuals"
+    - "Defamatory allegations about real people or identifiable local entities"
+
+continuity_guardrails:
+  - "Never contradict established facts in story/bible.json."
+  - "If introducing a new named character/place that should recur, add it to bible.json facts ledger."
+  - "Do not move Priya far from Lucknow suddenly without a setup arc."
+  - "Keep relationships stable unless a change is shown on-page."

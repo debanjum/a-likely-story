@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "facts": {
+    "protagonist": {
+      "name": "Priya Verma",
+      "preferred_name": "Priya",
+      "age": 22,
+      "pronouns": "she/her",
+      "country": "India",
+      "state": "Uttar Pradesh",
+      "district": "Lucknow",
+      "town": "Mohanlalganj",
+      "settlement_type": "peri-urban (outskirts of Lucknow)",
+      "timezone": "Asia/Kolkata",
+      "languages": ["Hindi", "English (functional)"]
+    },
+    "household": {
+      "household_size_target": 4,
+      "home_notes": "Brick house with small courtyard; hand pump nearby; neem tree; occasional power cuts; unreliable inverter.",
+      "members": [
+        {
+          "role": "father",
+          "name": "Rakesh Verma",
+          "notes": "Practical, quiet pride, anxious about money; small farming (seasonal crops + some vegetables) and part-time warehouse associate work (sorting/packing/loading) on the Lucknow side. Usually ~3 night shifts a week; fewer shifts during harvest; more shifts in festive seasons when demand and parcel volume spike."
+        },
+        {
+          "role": "mother",
+          "name": "Sunita Verma",
+          "notes": "Warm, observant; runs household; manages small household economics."
+        },
+        {
+          "role": "brother",
+          "name": "Arjun Verma",
+          "age": 16,
+          "notes": "Clever, a little lazy on purpose, quietly loyal. They bicker, but help each other in small, careful ways."
+        }
+      ]
+    },
+    "recurring_places": [
+      {
+        "name": "Bus stand",
+        "notes": "Crossroads place; shared autos, buses; recurring ambient scene."
+      },
+      {
+        "name": "Chai stall",
+        "notes": "Near the bus stand; morning punctuation; gossip-lite."
+      },
+      {
+        "name": "Cyber/photocopy shop",
+        "notes": "Forms, IDs, printouts; small friction generator."
+      },
+      {
+        "name": "Market lane",
+        "notes": "Vegetables, stationery, small errands; evening walk loop."
+      }
+    ],
+    "recurring_characters": [
+      {
+        "name": "Chai Uncle",
+        "role": "tea stall owner",
+        "notes": "Friendly; remembers preferences; says more with tone than words."
+      },
+      {
+        "name": "Sharma Ji",
+        "role": "photocopy/stationery/cyber cafe",
+        "notes": "Moody but helpful if you catch him right; knows every form requirement."
+      },
+      {
+        "name": "Sana",
+        "role": "Priya's close friend",
+        "age": 22,
+        "notes": "Quick laugh; practical; says things out loud; part-time work."
+      },
+      {
+        "name": "Irfan",
+        "role": "old school friend",
+        "age": 22,
+        "notes": "Gentle; helps with forms/cyber-cafe things; friendship is easy but not simple."
+      }
+    ]
+  },
+  "open_threads": [
+    {
+      "id": "education_continuation",
+      "status": "open",
+      "notes": "BA (distance/local college) continues intermittently; fees/attendance stress; admit cards kept carefully."
+    },
+    {
+      "id": "money_rhythm",
+      "status": "open",
+      "notes": "Income is uneven (tutoring/odd work). Wants more stability without leaving home abruptly."
+    },
+    {
+      "id": "city_pull",
+      "status": "open",
+      "notes": "Lucknow is close enough to matter; occasional trips for forms/exams/hospitals/errands."
+    },
+    {
+      "id": "marriage_pressure_background",
+      "status": "open",
+      "notes": "Low-simmer family/community expectations; keep subtle and non-melodramatic."
+    }
+  ]
+}
