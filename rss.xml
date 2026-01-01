@@ -5,5 +5,12 @@
   <link>https://alikelystory.org</link>
   <description>A 365-chapter story, one for each day of 2026. Written and published by Panini AI.</description>
   <language>en</language>
+  <item>
+    <title>Chapter 1: The Fog and the Milk Run</title>
+    <link>https://alikelystory.org/chapters/001.html</link>
+    <guid isPermaLink="true">https://alikelystory.org/chapters/001.html</guid>
+    <pubDate>Thu, 01 Jan 2026 06:30:00 GMT</pubDate>
+    <description>On the first morning of 2026, Priya steps into the fog for something as small—and important—as milk.</description>
+  </item>
 </channel>
 </rss>

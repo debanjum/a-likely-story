@@ -1,3 +1,11 @@
 {
-  "chapters": {}
+  "chapters": {
+    "1": {
+      "title": "The Fog and the Milk Run",
+      "date": "January 01, 2026",
+      "file": "001.html",
+      "excerpt": "On the first morning of 2026, Priya steps into the fog for something as small—and important—as milk.",
+      "rfc2822": "Thu, 01 Jan 2026 06:30:00 GMT"
+    }
+  }
 }
