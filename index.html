@@ -85,6 +85,17 @@
 			const currentTheme = document.documentElement.className;
 			setTheme(currentTheme === 'dark' ? 'light' : 'dark');
 		});
+
+		// Check for reading history
+		const lastReadChapter = localStorage.getItem('lastReadChapter');
+		if (lastReadChapter) {
+			const cta = document.querySelector('.cta');
+			if (cta) {
+				const paddedChapter = lastReadChapter.toString().padStart(3, '0');
+				cta.href = `chapters/${paddedChapter}.html`;
+				cta.textContent = 'Continue Reading';
+			}
+		}
 	</script>
 </body>
 </html>
