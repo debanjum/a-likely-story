@@ -12,7 +12,11 @@
       "town": "Mohanlalganj",
       "settlement_type": "peri-urban (outskirts of Lucknow)",
       "timezone": "Asia/Kolkata",
-      "languages": ["Hindi", "English (functional)"]
+      "languages": ["Hindi", "English (functional)"],
+      "document_habits": {
+        "plastic_folder": "Keeps academic documents (admit cards, marksheets, photos) in a plastic folder and treats it protectively.",
+        "checklists": "Uses a squared-page notebook to convert worry into written checklists."
+      }
     },
     "household": {
       "household_size_target": 4,

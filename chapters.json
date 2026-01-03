@@ -6,6 +6,13 @@
       "file": "001.html",
       "excerpt": "On the first morning of 2026, Priya steps into the fog for something as small—and important—as milk.",
       "rfc2822": "Thu, 01 Jan 2026 06:30:00 GMT"
+    },
+    "2": {
+      "title": "The Photocopy File",
+      "date": "January 02, 2026",
+      "file": "002.html",
+      "excerpt": "A deadline turns the morning into a small, familiar pilgrimage: tea, a queue, and the warm weight of papers in a plastic folder.",
+      "rfc2822": "Fri, 02 Jan 2026 06:30:00 GMT"
     }
   }
 }
