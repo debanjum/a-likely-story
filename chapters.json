@@ -13,6 +13,13 @@
       "file": "002.html",
       "excerpt": "A deadline turns the morning into a small, familiar pilgrimage: tea, a queue, and the warm weight of papers in a plastic folder.",
       "rfc2822": "Fri, 02 Jan 2026 06:30:00 GMT"
+    },
+    "3": {
+      "title": "The Stamp and the Token",
+      "date": "January 03, 2026",
+      "file": "003.html",
+      "excerpt": "A first-Saturday bank queue turns one small fee into a whole morning—until a purple stamp makes it real.",
+      "rfc2822": "Sat, 03 Jan 2026 06:30:00 GMT"
     }
   }
 }
