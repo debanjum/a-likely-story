@@ -171,7 +171,7 @@ narrative_instructions:
     - "Prefer lived detail over exposition."
     - "Use real-world inputs to shape mood/texture/trajectory."
     - "Limit new named entities; if one is introduced, make them earn it by recurring."
-    - "0–3 short Hindi phrases per chapter; ensure gloss in-context."
+    - "0–5 short Hindi phrases per chapter; ensure gloss in-context."
 
 mixed_reality_policy:
   allowed_real_world_inputs:
@@ -179,7 +179,6 @@ mixed_reality_policy:
     - "Seasonality and public holidays"
     - "Local or major public news as ambience"
   disallowed:
-    - "Claims about real private individuals"
     - "Defamatory allegations about real people or identifiable local entities"
 
 continuity_guardrails:
