@@ -69,6 +69,13 @@
       "file": "010.html",
       "excerpt": "The weather gets a warning of its own, and Priya learns to treat ‘under review’ like background noise.",
       "rfc2822": "Sat, 10 Jan 2026 06:30:00 GMT"
+    },
+    "11": {
+      "title": "Rubber Stamp",
+      "date": "January 11, 2026",
+      "file": "011.html",
+      "excerpt": "Priya gives her small earnings a name, and learns the difference between ‘approved’ and ‘done.’",
+      "rfc2822": "Sun, 11 Jan 2026 06:30:00 GMT"
     }
   }
 }
