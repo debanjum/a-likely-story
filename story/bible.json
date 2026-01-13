@@ -12,7 +12,10 @@
       "town": "Mohanlalganj",
       "settlement_type": "peri-urban (outskirts of Lucknow)",
       "timezone": "Asia/Kolkata",
-      "languages": ["Hindi", "English (functional)"],
+      "languages": [
+        "Hindi",
+        "English (functional)"
+      ],
       "document_habits": {
         "plastic_folder": "Keeps academic documents (admit cards, marksheets, photos) in a plastic folder and treats it protectively.",
         "checklists": "Uses a squared-page notebook to convert worry into written checklists."
@@ -92,7 +95,7 @@
     {
       "id": "typing_practice",
       "status": "open",
-      "notes": "On Jan 5, noticing the F/J home-row bumps on Sharma Ji’s keyboard nudges Priya into asking how to learn typing. Sharma Ji offers to show her when the shop is empty; Priya plans short practice sessions (15 minutes, three days a week) as a step toward steadier work. On Jan 6 she completes her first 15-minute session focused on home-row drills (A-S-D-F / J-K-L-;) and keeps a printed practice sheet in her plastic folder. On Jan 7 she returns for Day 2 (15 minutes) and begins simple pattern drills (as/df and jk/kl); Sharma Ji scribbles the patterns on scrap paper for her to practice at home. On Jan 8 she completes Day 3 (15 minutes) despite a crowded Thursday shop; Sharma Ji has her type her name (‘Priya Verma’) and assigns a small home routine (name repetitions plus as/df and jk/kl patterns). On Jan 9, during a cold-wave school closure, Priya comes in just to practice and ends up typing a handwritten list cleanly for a customer; Sharma Ji pays her ₹50 and says he’ll call if more typing work comes. On Jan 10, under very dense fog warnings, Priya practises again (15 minutes) and types a Hindi complaint letter for an uncle for the electricity office; Sharma Ji pays her ₹60 and warns her to be careful with people’s names and words. On Jan 11 she sneaks in a short Sunday practice, asks about buying a keyboard for home practice, spots a second-hand keyboard for ₹250, and starts a small ‘KEYBOARD’ fund with ₹50."
+      "notes": "On Jan 5, noticing the F/J home-row bumps on Sharma Ji’s keyboard nudges Priya into asking how to learn typing. Sharma Ji offers to show her when the shop is empty; Priya plans short practice sessions (15 minutes, three days a week) as a step toward steadier work. On Jan 6 she completes her first 15-minute session focused on home-row drills (A-S-D-F / J-K-L-;) and keeps a printed practice sheet in her plastic folder. On Jan 7 she returns for Day 2 (15 minutes) and begins simple pattern drills (as/df and jk/kl); Sharma Ji scribbles the patterns on scrap paper for her to practice at home. On Jan 8 she completes Day 3 (15 minutes) despite a crowded Thursday shop; Sharma Ji has her type her name (‘Priya Verma’) and assigns a small home routine (name repetitions plus as/df and jk/kl patterns). On Jan 9, during a cold-wave school closure, Priya comes in just to practice and ends up typing a handwritten list cleanly for a customer; Sharma Ji pays her ₹50 and says he’ll call if more typing work comes. On Jan 10, under very dense fog warnings, Priya practises again (15 minutes) and types a Hindi complaint letter for an uncle for the electricity office; Sharma Ji pays her ₹60 and warns her to be careful with people’s names and words. On Jan 11 she sneaks in a short Sunday practice, asks about buying a keyboard for home practice, spots a second-hand keyboard for ₹250, and starts a small ‘KEYBOARD’ fund with ₹50. On Jan 12, Priya types a Vivekananda quote for Arjun’s National Youth Day chart and carefully types another Hindi list for a customer; Sharma Ji pays her ₹70. She adds it to her KEYBOARD fund, bringing it to ₹120."
     },
     {
       "id": "money_rhythm",
