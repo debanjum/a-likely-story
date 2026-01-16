@@ -97,6 +97,13 @@
       "file": "014.html",
       "excerpt": "On Sankranti, Priya finds two small proofs waiting in her hands.",
       "rfc2822": "Wed, 14 Jan 2026 06:30:00 GMT"
+    },
+    "15": {
+      "title": "The Confirmation Slip",
+      "date": "January 15, 2026",
+      "file": "015.html",
+      "excerpt": "A new page prints cleanly, and a second-hand keyboard comes home like a quiet promise.",
+      "rfc2822": "Thu, 15 Jan 2026 06:30:00 GMT"
     }
   }
 }
