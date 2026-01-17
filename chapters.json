@@ -104,6 +104,13 @@
       "file": "015.html",
       "excerpt": "A new page prints cleanly, and a second-hand keyboard comes home like a quiet promise.",
       "rfc2822": "Thu, 15 Jan 2026 06:30:00 GMT"
+    },
+    "16": {
+      "title": "The Small Connector",
+      "date": "January 16, 2026",
+      "file": "016.html",
+      "excerpt": "A tiny cable turns practice into something Priya can actually see.",
+      "rfc2822": "Fri, 16 Jan 2026 06:30:00 GMT"
     }
   }
 }
