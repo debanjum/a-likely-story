@@ -118,6 +118,13 @@
       "file": "017.html",
       "excerpt": "On a foggy Saturday, Priya discovers that a small, typed sentence can steady a whole courtyard.",
       "rfc2822": "Sat, 17 Jan 2026 06:30:00 GMT"
+    },
+    "18": {
+      "title": "The List in Blue",
+      "date": "January 18, 2026",
+      "file": "018.html",
+      "excerpt": "On a Sunday shaped by fog and small errands, Priya discovers that typing can hold a day the way a pin holds cloth.",
+      "rfc2822": "Sun, 18 Jan 2026 06:30:00 GMT"
     }
   }
 }
