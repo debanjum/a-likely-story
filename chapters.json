@@ -132,6 +132,13 @@
       "file": "019.html",
       "excerpt": "A single sheet of paper, with boxes and blanks, asks Priya for a new kind of honesty.",
       "rfc2822": "Mon, 19 Jan 2026 06:30:00 GMT"
+    },
+    "20": {
+      "title": "Six Digits",
+      "date": "January 20, 2026",
+      "file": "020.html",
+      "excerpt": "In the clinic’s waiting room, Priya discovers that the smallest boxes can ask for the most precision.",
+      "rfc2822": "Tue, 20 Jan 2026 06:30:00 GMT"
     }
   }
 }
