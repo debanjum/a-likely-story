@@ -146,6 +146,13 @@
       "file": "021.html",
       "excerpt": "Priya’s first half-day at the clinic turns out to be less about speed and more about keeping small truths intact.",
       "rfc2822": "Wed, 21 Jan 2026 06:30:00 GMT"
+    },
+    "22": {
+      "title": "The Stapled Face",
+      "date": "January 22, 2026",
+      "file": "022.html",
+      "excerpt": "A strip of passport photos and an extra Aadhaar copy turn a trial day into something that feels, briefly, official.",
+      "rfc2822": "Thu, 22 Jan 2026 06:30:00 GMT"
     }
   }
 }
