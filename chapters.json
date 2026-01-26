@@ -167,6 +167,13 @@
       "file": "024.html",
       "excerpt": "A Saturday with mist in the morning and clarity in the afternoon—Priya learns that official work is mostly waiting for digits to arrive.",
       "rfc2822": "Sat, 24 Jan 2026 06:30:00 GMT"
+    },
+    "25": {
+      "title": "Two Alarms",
+      "date": "January 25, 2026",
+      "file": "025.html",
+      "excerpt": "On a clear winter Sunday, Priya turns tomorrow into a small pile of practical things—flat papers, two pens, and a pair of alarms that feel like promises.",
+      "rfc2822": "Sun, 25 Jan 2026 06:30:00 GMT"
     }
   }
 }
