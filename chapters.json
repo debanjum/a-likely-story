@@ -188,6 +188,13 @@
       "file": "027.html",
       "excerpt": "On an ordinary Tuesday, Priya learns that preparedness is sometimes just one extra pen and the courage to ask again.",
       "rfc2822": "Tue, 27 Jan 2026 06:30:00 GMT"
+    },
+    "28": {
+      "title": "The Subject Line",
+      "date": "January 28, 2026",
+      "file": "028.html",
+      "excerpt": "A message arrives in her new inbox, and Priya learns that even a link needs the courage of a pause.",
+      "rfc2822": "Wed, 28 Jan 2026 06:30:00 GMT"
     }
   }
 }
