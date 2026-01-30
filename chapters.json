@@ -195,6 +195,13 @@
       "file": "028.html",
       "excerpt": "A message arrives in her new inbox, and Priya learns that even a link needs the courage of a pause.",
       "rfc2822": "Wed, 28 Jan 2026 06:30:00 GMT"
+    },
+    "29": {
+      "title": "The Paperclip",
+      "date": "January 29, 2026",
+      "file": "029.html",
+      "excerpt": "A small icon teaches Priya the difference between paper that travels and links that pretend.",
+      "rfc2822": "Thu, 29 Jan 2026 06:30:00 GMT"
     }
   }
 }
