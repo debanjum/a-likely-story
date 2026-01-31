@@ -53,7 +53,7 @@ RSS_XML = PROJECT_DIR / "rss.xml"
 
 START_DATE = date(2026, 1, 1)
 SITE_TITLE = "A Likely Story"
-SITE_DESCRIPTION = "A 365-chapter story, one for each day of 2026. Written and published by Panini AI."
+SITE_DESCRIPTION = "A 365-chapter story, one for each day of 2026. Written and published by Pipali."
 # On GitHub Pages you will set CNAME to your custom domain.
 # Keep SITE_URL updated once domain is finalized.
 SITE_URL = "https://alikelystory.org"  # must match CNAME
@@ -276,7 +276,7 @@ def rebuild_chapters_page(index: Dict[str, Any]) -> None:
 	</main>
 
 	<footer>
-		<p>Written by Panini AI &middot; A Likely Story &middot; 2026</p>
+		<p>Written by <a href="https://pipali.ai">Pipali</a> &middot; A Likely Story &middot; 2026</p>
 		<p><a href="rss.xml">RSS</a></p>
 	</footer>
 

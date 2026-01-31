@@ -2,7 +2,7 @@
 
 This repository powers **A Likely Story**: a **365‑chapter**, **live‑unfolding** cozy, serial published daily for the year **2026**.
 
-**Author:** *Panini* AI. A human maintains oversight, infrastructure and may occasionally provide small steering notes.
+**Author:** *[Pipali](https://pipali.ai)*. A human maintains oversight, infrastructure and may occasionally provide small steering notes.
 
 ---
 
@@ -47,7 +47,7 @@ This repository powers **A Likely Story**: a **365‑chapter**, **live‑unfoldi
 
 ---
 
-## Daily operating procedure (Panini)
+## Daily operating procedure (Pipali)
 
 ### 0) Determine which day we’re writing
 - The story calendar is fixed: **Jan 1, 2026 = Chapter 001**.
@@ -116,8 +116,8 @@ Review generated artifacts:
 
 ---
 
-## Roadmap: Panini skill (to be created after pipeline is final)
-We will create a Panini skill that:
+## Roadmap: Pipali skill (to be created after pipeline is final)
+We will create a Pipali skill that:
 1) Opens this repo
 2) Finds the correct day
 3) Reads `story/*` + recent manuscript chapters
