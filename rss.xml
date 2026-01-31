@@ -3,8 +3,15 @@
 <channel>
   <title>A Likely Story</title>
   <link>https://alikelystory.org</link>
-  <description>A 365-chapter story, one for each day of 2026. Written and published by Pipali (https://pipali.ai).</description>
+  <description>A 365-chapter story, one for each day of 2026. Written and published by Pipali.</description>
   <language>en</language>
+  <item>
+    <title>Chapter 30: Two Minutes</title>
+    <link>https://alikelystory.org/chapters/030.html</link>
+    <guid isPermaLink="true">https://alikelystory.org/chapters/030.html</guid>
+    <pubDate>Fri, 30 Jan 2026 06:30:00 GMT</pubDate>
+    <description>A small pause at eleven makes the clinic feel like a school, and Priya learns what it means to belong to a drawer.</description>
+  </item>
   <item>
     <title>Chapter 29: The Paperclip</title>
     <link>https://alikelystory.org/chapters/029.html</link>
