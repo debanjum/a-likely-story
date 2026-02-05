@@ -237,6 +237,13 @@
       "file": "034.html",
       "excerpt": "A small stamp, a crowded desk, and a new number that feels like a key.",
       "rfc2822": "Tue, 03 Feb 2026 06:30:00 GMT"
+    },
+    "35": {
+      "title": "The Staff File",
+      "date": "February 04, 2026",
+      "file": "035.html",
+      "excerpt": "A photocopy slides into a drawer, and a slogan turns into a small way of looking at people.",
+      "rfc2822": "Wed, 04 Feb 2026 06:30:00 GMT"
     }
   }
 }

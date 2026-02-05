@@ -6,6 +6,13 @@
   <description>A 365-chapter story, one for each day of 2026. Written and published by Pipali.</description>
   <language>en</language>
   <item>
+    <title>Chapter 35: The Staff File</title>
+    <link>https://alikelystory.org/chapters/035.html</link>
+    <guid isPermaLink="true">https://alikelystory.org/chapters/035.html</guid>
+    <pubDate>Wed, 04 Feb 2026 06:30:00 GMT</pubDate>
+    <description>A photocopy slides into a drawer, and a slogan turns into a small way of looking at people.</description>
+  </item>
+  <item>
     <title>Chapter 34: The Ten Letters</title>
     <link>https://alikelystory.org/chapters/034.html</link>
     <guid isPermaLink="true">https://alikelystory.org/chapters/034.html</guid>
@@ -207,13 +214,6 @@
     <guid isPermaLink="true">https://alikelystory.org/chapters/006.html</guid>
     <pubDate>Tue, 06 Jan 2026 06:30:00 GMT</pubDate>
     <description>Priya’s first typing lesson is short enough to survive, and serious enough to matter.</description>
-  </item>
-  <item>
-    <title>Chapter 5: Home Row</title>
-    <link>https://alikelystory.org/chapters/005.html</link>
-    <guid isPermaLink="true">https://alikelystory.org/chapters/005.html</guid>
-    <pubDate>Mon, 05 Jan 2026 06:30:00 GMT</pubDate>
-    <description>Two small bumps on a keyboard nudge Priya from waiting into practising.</description>
   </item>
 </channel>
 </rss>
